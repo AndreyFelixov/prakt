@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>h.png</file>
+        <file>m.png</file>
+        <file>s.png</file>
+        <file>с.png</file>
+        <file>budil.wav</file>
+        <file>t.png</file>
+    </qresource>
+</RCC>
