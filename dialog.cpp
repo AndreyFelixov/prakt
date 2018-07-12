@@ -49,7 +49,7 @@ void Dialog::on_timer_clicked()
     mod = 1;
 }
 
-void Dialog::on_pushButton_clicked_44()
+void Dialog::on_pushButton_clicked()
 {
     if (mod==1)
     {
