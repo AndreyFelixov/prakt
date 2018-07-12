@@ -125,6 +125,12 @@ void MainWindow::slotTimerAlarm()
 
     if (buti==11)
     {
+        ui->lcdbh->display(tbudil.hour());
+        ui->lcdbm->display(tbudil.minute());
+        ui->lcdbh->show();
+        ui->lcdbm->show();
+        ui->bud->show();
+        ui->vkl->show();
 
     }
     else
