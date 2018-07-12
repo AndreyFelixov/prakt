@@ -41,6 +41,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->t4->setPixmap(QPixmap(":/t.png"));
     timer = new QTimer();
     connect(timer, SIGNAL(timeout()), this, SLOT(slotTimerAlarm()));
+    timer->start(1000);
 
 }
 
