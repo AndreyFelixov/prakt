@@ -8,7 +8,7 @@
 #include <QPainter>
 #include <QSound>
 
-int coco = 1, mode = 1, vkll=1;
+int coco = 1, mode = 1, vkll=1, int borov = 2;
 QTime t;
 
 MainWindow::MainWindow(QWidget *parent) :
